@@ -102,7 +102,8 @@ The application may need, in future, to be modified to include additional charac
 refers to .java file: FileReader
 To use FileReader.java in terminal type 
 
-$ cd toDirWhereFileReaderIS
-$ javac FileReader.java			// to compile FileReader.java file
-$ java FileReader README.md 		// or any txt file 
+$ cd toDirWhereFileReaderIS  
+$ javac FileReader.java			// to compile FileReader.java file  
+$ java FileReader README.md 		// or any txt file   
+
 
