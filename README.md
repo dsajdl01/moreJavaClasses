@@ -43,6 +43,7 @@ refere to .java file: ClassURL
 
 -------------------------------------------------------------------------------------------
 
+
 4) This is a demo task. You can read about this task and its solutions in this blog post. 
 A zero-indexed array A consisting of N integers is given. An equilibrium index of this 
 array is any integer P such that 0 ≤ P < N and the sum of elements of lower indices is 
@@ -87,3 +88,21 @@ expected worst-case space complexity is O(N), beyond input storage (not counting
 Elements of input arrays can be modified. 
 
 refers to .java file: ClassSolution 
+
+-------------------------------------------------------------------------------------------
+
+5) Write a command line application which reads text from an input file, switches
+the case of any vowels identified, and writes the resulting text to an output file. 
+
+The user of the application must at least specify the paths to the input and output file. 
+The output file may not currently exist.
+The format of the file's content is unknown prior to running the application. 
+The application may need, in future, to be modified to include additional characters whose cases need to be switched.
+
+refers to .java file: FileReader
+To use FileReader.java in terminal type 
+
+$ cd toDirWhereFileReaderIS
+$ javac FileReader.java			// to compile FileReader.java file
+$ java FileReader README.md 		// or any txt file 
+
