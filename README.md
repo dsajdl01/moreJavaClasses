@@ -19,14 +19,16 @@ String text = "I am not a groovy developer"
 
 How would you transform this to set all "o" and "e" to uppercase? 
 
-refere to .java file: ClassMyString
+refere to .java file: ClassMyString 
 
 
 ------------------------------------------------------------------------------------------  
 
 3) Class that have a collection of product IDs in a set:  
 
-String[] productIDsSet = {"114967","221722","114965","110722","525762","93649","93269","121892","121875","15001"} and we need to find out if any of these URLs: 
+String[] productIDsSet = {"114967","221722","114965","110722","525762","93649", 
+					      "93269","121892","121875","15001"} 
+					      and we need to find out if any of these URLs:  
 
 String[] imageUrlsSet = ["shop/media/catalog/product/cache/14/image/460x492/9df78eab33525d08d6e5fb8d27136e95/H/L/HL_Tor_0015_525762_20195_A.jpg", 
 "shop/media/catalog/product/cache/14/image/460x492/asdfefa/35325/9df78eab33525d08d6e5fb8d27136e95/T/E/TEC_Tor_0015_221722_20187_A.jpg", 
@@ -84,7 +86,8 @@ the function may return 3 or 6, as explained above.
 
 Complexity:
 expected worst-case time complexity is O(N);
-expected worst-case space complexity is O(N), beyond input storage (not counting the storage required for input arguments). 
+expected worst-case space complexity is O(N), beyond input storage (not counting   
+the storage required for input arguments).  
 Elements of input arrays can be modified. 
 
 refers to .java file: ClassSolution 
@@ -97,13 +100,49 @@ the case of any vowels identified, and writes the resulting text to an output fi
 The user of the application must at least specify the paths to the input and output file. 
 The output file may not currently exist.
 The format of the file's content is unknown prior to running the application. 
-The application may need, in future, to be modified to include additional characters whose cases need to be switched.
+The application may need, in future, to be modified to include additional  
+characters whose cases need to be switched. 
 
 refers to .java file: FileReader
 To use FileReader.java in terminal type 
 
 $ cd toDirWhereFileReaderIS  
 $ javac FileReader.java			// to compile FileReader.java file  
-$ java FileReader README.md 		// or any txt file   
+$ java FileReader README.md 		// or any txt file    
+ 
+refers to .java file: FileReader   
+ 
+-------------------------------------------------------------------------------------------
+  
+6) write a class that has method which takes an integer and return number that  
+retresent number of prime numbers to the input integer   
+to input integer.  
 
+For example if input number is 10 then it returns 4  
+As 10 has {2 3 5 7}  
 
+refers to .java file: SolutionCountPrimeNum 
+
+-------------------------------------------------------------------------------------------
+
+7) write a class that has method with the following requirements:  
+
+	• Accepts two strings as input: one string is called "text" and the other is    
+      called "subtext" in this problem statement.  
+   	• Matches the subtext against the text, outputting the character positions of  
+  	  the beginning of each match for the subtext within the text.  
+	• Allows multiple matches.   
+	• Allows case insensitive matching 
+
+For example, if the input Text is: 
+Polly put the kettle on, polly put the kettle on, polly put the kettle on we'll all have tea 
+
+refers to .java file: ClassSolution 
+Solutions 
+Subtext: Polly 
+Output: 1, 26, 51 
+
+Subtext: polly 
+Output: 1, 26, 51 
+
+refers to .java file: MyMatch  
